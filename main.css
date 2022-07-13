@@ -1,0 +1,138 @@
+
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+a:visited{
+  color: black;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 24px rgba(0, 0 ,0 ,0 , 25) ;
+}
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+.info-text {
+  margin-left: 40px;
+}
+.info-text h4 {
+  margin-bottom: 10px;
+}
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: 0;
+  font-weight: bold;
+  text-decoration: none;
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+/*.social {
+  background: green;
+
+}*/
+.bg-yellow {
+  background: #fff9bc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-yellow {
+  background: #ffe5e5;
+}
+.car {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+border-radius: 15px;
+}
+.car h2 {
+  margin-bottom: 10px;
+}
+.list {
+  padding: 0 20px;
+  list-style: none;
+}
+.list li {
+  color: #86898f
+  margin-button: 10px;
+
+}
+.tabel {
+  width: 100%;
+}
+.tabel td {
+  padding-bottom: 10px;
+}
+.tabel td:nth-child(2),
+.tabel td:nth-child(3){
+  color: #86898f;
+}
+.contact h2 {
+  text-align: center;
+}
+.for-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+.for-group input,
+.for-group textarea{
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 14px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+.row{
+  display: flex;
+  margin-bottom: 20px;
+}
+.row> .for-group {
+  width: 50%;
+  margin-right: 20px;
+}
+.row >.for-group:first-child{
+  margin-right: 0;
+}
+.btn {
+  background:black;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0,9;
+}
